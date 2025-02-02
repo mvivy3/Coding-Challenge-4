@@ -25,3 +25,13 @@ let stock = 10; // Declare stock with an initial value of 10
 while (stock >= 0) { // Use a while loop to decrease stock until it reaches zero
     console.log("Stock is: ", stock); // Print the current stock
     stock--; // Decrement the value of count by 1
+
+
+    // Task 4: Customer Survey
+let responses = 0; // Declare responses with an initial value of 0
+
+do { // Use a do...while loop to collect responses until it reaches 3
+    console.log(`Customer response ${responses}`);
+    responses++ // simulating user input 
+} while (responses <= 3);
+console.log(responses); // Log each response count
