@@ -63,3 +63,12 @@ for (let product of products) { // Use a for...of loop
     console.log(`Orders ${index + 1}: $${order}`); // Log each order ID
  }); 
 
+
+// Task 8: Tax Calculation
+ function calculateTax(amount, taxRate) { // Write a function calculateTax
+    return amount * taxRate; // Return the calculated tax
+ }
+ const totalAmount = 500; // Total amount = $500
+ const taxRate = 0.08; // 8% tax rate
+ const tax = calculateTax(totalAmount, taxRate);
+ console.log(`Tax: $${tax}`); // Log the result
