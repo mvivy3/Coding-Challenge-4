@@ -72,3 +72,17 @@ for (let product of products) { // Use a for...of loop
  const taxRate = 0.08; // 8% tax rate
  const tax = calculateTax(totalAmount, taxRate);
  console.log(`Tax: $${tax}`); // Log the result
+
+
+ // Task 9: Discount Application
+ function applyDiscount(price, discountPercentage) { // Declare a function expression
+ const discountAmount = (price * discountPercentage);
+ const discountedPrice = price - discountAmount;
+ return discountedPrice; // Return discounted price
+}
+
+const price = 100; // Price = $100
+const discount = .10; // Discount = 10%
+
+const discountedPrice = applyDiscount(price, discount);
+console.log(discountedPrice); // Log the result
