@@ -46,3 +46,11 @@ let employee = {
 for (let property in employee) { // Use a for...in loop
     console.log(`${property}: ${employee[property]}`); // Log each property
 }
+
+
+// Task 6: Product Listings
+let products = ["Eraser", "Pencil", "Highlighter"]; // Declare an array products
+ 
+for (let product of products) { // Use a for...of loop
+    console.log(`Display, ${products}!`); // Log each product name
+ }
