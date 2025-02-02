@@ -9,3 +9,12 @@ if (purchaseAmount > 100 ) { // Check to see if the purchaseAmountis greater tha
     }
     finalAmount = purchaseAmount * 0.10;
     console.log(`Final amount after discount: $${finalAmount}`);
+
+
+// Task 2: Sales Report
+let sales = [1000, 2000, 3000, 4000, 5000]; // Declare an array sales
+let totalSales = 0;
+for (let i = 0; i < sales.length; i++) { // Use a for loop to calculate the total sales
+    totalSales += sales[i];
+}
+console.log("Total sales:" + totalSales); // Log the total sales 
