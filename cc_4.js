@@ -18,3 +18,10 @@ for (let i = 0; i < sales.length; i++) { // Use a for loop to calculate the tota
     totalSales += sales[i];
 }
 console.log("Total sales:" + totalSales); // Log the total sales 
+
+
+// Task 3: Inventory Depletion
+let stock = 10; // Declare stock with an initial value of 10
+while (stock >= 0) { // Use a while loop to decrease stock until it reaches zero
+    console.log("Stock is: ", stock); // Print the current stock
+    stock--; // Decrement the value of count by 1
