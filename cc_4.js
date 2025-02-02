@@ -54,3 +54,12 @@ let products = ["Eraser", "Pencil", "Highlighter"]; // Declare an array products
 for (let product of products) { // Use a for...of loop
     console.log(`Display, ${products}!`); // Log each product name
  }
+
+
+ // Task 7: Order Processing
+ let orders = [100, 101, 102]; // Declare an array orders
+
+ orders.forEach((order, index) => { // Use the forEach() method
+    console.log(`Orders ${index + 1}: $${order}`); // Log each order ID
+ }); 
+
