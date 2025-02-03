@@ -86,3 +86,9 @@ const discount = .10; // Discount = 10%
 
 const discountedPrice = applyDiscount(price, discount);
 console.log(discountedPrice); // Log the result
+
+
+// Task 10: Loyalty Points
+const calculatePoints = (purchase, points) => purchase * points // write an arrow function
+
+console.log(calculatePoints(500, .10)); // 1 point per $10 spent, purchase amount is $500
